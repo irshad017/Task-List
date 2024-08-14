@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  background: #6A1B9A;
+}
+.icon{
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  width: 150px;
+}
+.icon p{
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+.headImg{
+  display: flex;
+  gap: 1rem;
+  width: 20px;
+  font-size: 28px;
+}
+.leftHead{
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  position: absolute;
+  right: 40px;
+}
+.leftHead ul i{
+  color: white;
+  padding-top: 3.5px;
+  font-size: 19px;
+}
+.leftHead ul{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.leftHead ul li{
+  list-style-type: none;
+}
+.HeadName{
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* HOME */
+
+
+
+
+/* YOURTASK */
+
+.yourTask{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task_mid{
+  background-color: rgb(177, 210, 223);
+  width: 500px;
+  height: 600px;
+  margin-top: 2rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  border-radius: 20px;
+}
+.input input{
+  width: 270px;
+  height: 30px;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.input button{
+  width: 50px;
+  height: 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.show{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
