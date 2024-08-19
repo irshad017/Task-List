@@ -1,4 +1,4 @@
-import e from 'cors';
+import cors from 'cors';
 import React, { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
 import {FaEdit} from 'react-icons/fa'
@@ -8,7 +8,7 @@ import { AiFillDelete } from "react-icons/ai";
 function YourTask() {
     const [todo,setTodo] = useState("")
     const [todos,setTodos] = useState([])
-    const [ShowFinish,setShowFinish] = useState(true)
+    const [ShowFinish,setShowFinish] = useState(false)
 
     useEffect(()=>{
         let todoString = localStorage.getItem("ToDo")
